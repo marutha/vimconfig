@@ -24,7 +24,6 @@ set history=100
 set title
 set nobackup
 set backspace=indent,eol,start
-set relativenumber
 set ruler
 set showmatch
 set hlsearch
