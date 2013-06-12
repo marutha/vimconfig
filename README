@@ -5,18 +5,16 @@
   |___/_/_/ /_/ /_/
 ======================
 
-F*ck yeah!
-
 
  How to use this repository
 ----------------------------
 
 1. cd $HOME
-2. git clone <repository> .vim
+2. git clone https://github.com/marutha/vimconfig.git .vim
 3. cd .vim
 4. git submodule init
 5. git submodule update
-6. ln -s vimrc ../.vimrc
+6. ln -sf vimrc ../.vimrc
 
 This Vim configuration uses Pathogen (http://github.com/tpope/vim-pathogen),
 the plugins are placed in `.vim/bundle/'. Some of the plugins are hosted in
